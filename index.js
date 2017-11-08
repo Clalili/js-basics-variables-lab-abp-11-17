@@ -3,4 +3,4 @@ Use let... when you know the value of a variable will change. For example, a cou
 Use const... for every other variable.
 Best practice is to always declare variables with const and then, if you later realize that the value has to change over the course of your program, circle back to change it to let. your solution in this!
 
-let companyName = 'Scuber';
+const companyName = 'Scuber';

@@ -6,6 +6,7 @@ Best practice is to always declare variables with const and then, if you later r
 
 const companyName = 'Scuber';
 
-let mostProfitableNeighborhood = 'Chelsea';
+let mostProfitableNeighborhood;
+    mostProfitableNeighborhood = 'Chelsea';
 
 let companyCeo = 'Lauren Hart';
